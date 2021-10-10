@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abs and Relative</title>
+    <style>
+        #box1{
+            height: 200px;
+            width: 1000px;
+            border: 5px solid black;
+            position: relative;
+            background: rgb(131,58,180);
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+            left: 50px;
+            top: 10px;
+            text-align: center;
+            color: white;
+            font-size:xx-large;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;            
+        }
+
+        #abs{
+            height: 200px;
+            width: 1000px;
+            border: 5px solid black;
+            background: linear-gradient(90deg, #FDBB2D 0%, #3A1C71 100%);
+            position: absolute;
+            bottom: 50px;
+            left: 50px;
+            text-align: center;
+            color: white;
+            font-size: xx-large;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p id="box1">Relative</p>
+    <div id="abs">Absolute</div>
+   
+
+</body>
+</html>
